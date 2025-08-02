@@ -1,0 +1,10 @@
+---
+description: base rule
+globs:
+alwaysApply: true
+---
+
+# base rule
+- The generated documents should be in Chinese.
+- The generated code comments should be in English.
+- The explanatory content in the replies should be in Chinese.
