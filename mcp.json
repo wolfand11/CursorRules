@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "Context7": {
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "n8n-workflow-builder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "n8n-workflow-builder-mcp"
+      ],
+      "env": {
+        "N8N_API_URL": "http://localhost:8081",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMzlmNWJhOC1iNjFiLTQyMmQtYjQzNS04ZTYyNTBjMjg5ODYiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzYzMzY3NjE5fQ.hPiWf4JxVl8oSFYgZQzTnp7v8Vg2Oc3wAuOolJQThzI"
+      }
+    }
+  }
+}
